@@ -66,7 +66,7 @@ def test_inc_3_4():
     marker()
 
 def test_inc_3_5():
-    assert example.inc(3) == 5
+    assert example.inc(3) == 4
     marker()
 
 
