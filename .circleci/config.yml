@@ -1,0 +1,11 @@
+version: 2.1
+
+orbs:
+  po: fernfernfern/python-orb@0.0.7
+
+workflows:
+  test:
+    jobs:
+      - po/python-job:
+          with-pip: true
+          test-steps: python -m pytest -v -s
